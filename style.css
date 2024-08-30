@@ -1,0 +1,163 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aliceblue;
+}
+.heading{
+    width: 100%;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.all{
+    display: flex;
+}
+.side{
+    width: 30%;
+    height: 80vh;
+    /* border: 3px solid; */
+}
+.ey{
+    font-family: sans-serif;
+    font-weight: bolder;
+    margin-left: 4vh;
+   text-transform: capitalize;
+}
+.cn{
+    width: 80%;
+    height: 7vh;
+    margin-left: 5vh;
+    border-radius: 8px;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+.cn::placeholder{
+    font-size: 20px;
+}
+.search{
+    width: 80%;
+    height: 7vh;
+    margin-left: 5vh;
+    border-radius: 8px;
+    font-size: 30px;
+    margin-top: 5vh;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    border: none;
+    transition: 0.4s;
+}
+.search:hover{
+    background-color: rgba(0, 0, 255, 0.801)
+}
+.or{
+    text-align: center;
+    color: gray;
+
+}
+.cl{
+    width: 80%;
+    height: 7vh;
+    margin-left: 5vh;
+    border-radius: 8px;
+    font-size: 26px;
+    margin-top: 2vh;
+    background-color: gray;
+    color: #fff;
+    cursor: pointer;
+    text-transform: capitalize;
+    border: none;
+    transition: 0.4s;
+}
+.cl:hover{
+    background-color: rgba(128, 128, 128, 0.904)
+}
+.tem{
+    width: 80%;
+    height: 86vh;
+    /* border: 2px solid; */
+}
+.sys{
+    width: 80%;
+    height: 50vh;
+    background-color:#4f84f7 ;
+    margin-top: 5vh;
+    margin-left: 10vh;
+    border-radius: 8px;
+    display: flex;
+}
+.t{
+   width: 50%;
+   color: white; 
+   padding: 10px;
+   box-sizing: border-box;
+   font-family: sans-serif;
+}
+.t >p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.pic{
+    width: 50%;
+    margin-top: 20px;
+}
+.ban{
+    width: 100%;
+}
+.det{
+    font-family: sans-serif;
+    font-weight: bold;
+    position: relative;
+    left:-60vh;
+    top:13vh;
+
+}
+.bo{
+    width: 140vh;
+    position: absolute;
+    left: 70vh;
+    top: 75vh;
+    /* border: 2px solid; */
+    display: flex;
+    margin-bottom: 5vh;
+}
+.card{
+    width: 25%;
+    height: 43vh;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    padding: 5px;
+    margin-left: 2vh;
+    border-radius: 8px;
+    box-sizing: border-box;
+    flex-direction: column;
+    /* border: 2px solid; */
+    background-color: gray;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-bottom: 2vh;
+    transition: 0.4s;
+}
+.card:hover{
+    box-shadow: 0px 0px 10px;
+    transform: scale(1.05);
+    cursor: pointer;
+    margin-bottom: -2vh;
+}
+.card >p{
+    font-size: 16px;
+}
+.date1{
+    font-family: sans-serif;
+    font-weight: bold;
+
+}
